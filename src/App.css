@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  background-image: url("https://html.sammy-codes.com/images/background.jpg");
+  background-size: cover;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.generator{
+  background-color:transparent;
+
+}
+.generator__header{
+  text-align: center;
+  color: #000;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.generator__password{
+  background-color:#090909;
+  padding: 13px 10px;
+  color: #fff;
+  margin-bottom: 15px;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+.copy__btn{
+  color: #fff;
+  font-size: 250%;
+  background: #090909;
+  border: none;
+  cursor: pointer;
+}
+
+.generator__btn{
+  background: #000000;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.form-group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
